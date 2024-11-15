@@ -76,6 +76,8 @@ ggplot(data = virion_data, aes(x=log_genome_length_kb, y=log_virion_volume)) +
   theme(panel.border = element_rect(color = "black", fill = NA, size = 1))
 ```
 
+![](images/clipboard-4106196674.png)
+
 e\. What is the estimated volume of a 300 kb dsDNA virus?
 
 V = α(L\^β)
