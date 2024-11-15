@@ -2,6 +2,10 @@
 
 \# INSERT ANSWERS HERE \#
 
+#### Questions 1, 2 and 3
+
+I have answered questions 1, 2 and 3 in the README.md file of the logistic_growth repo that I forked during the practical. I have included a link to these answers here, as well as screenshots of my answers here in case the link does not work.
+
 #### Question 4
 
 ![](images/clipboard-1482025599.png)
