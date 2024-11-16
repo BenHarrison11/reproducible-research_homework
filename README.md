@@ -58,7 +58,13 @@ summary(linear_model)
 
 ```
 
-c)  The estimate for the intercept of our graph (ln(α)) is given as 7.0748. Therefore the scale factor α is equal to e\^7.0748 = 1181.81
+#### Figure 1: Output from summary(linear_model)
+
+![](images/clipboard-1008844200.png)
+
+c\. Recall: ln(V) = ln(α) + βln(L)
+
+The estimate for the intercept of our graph (ln(α)) is given as 7.0748. Therefore the scale factor α is equal to e\^7.0748 = 1181.81
 
 The associated p value for the intercept is 2.28e-10, which is highly statistically significant (far below the typical significance level threshold of 0.05, as well as more stringent thresholds such as 0.01).
 
@@ -70,7 +76,7 @@ The associated p value for the gradient is 6.44e-10, which is highly statistical
 
 The paper gives the following highlighted values for dsDNA viruses:
 
-#### Figure 1: Table showing allometric relationships between virion volume and genome length
+#### Figure 2: Table showing allometric relationships between virion volume and genome length
 
 ![](images/clipboard-2512842786.png)
 
@@ -88,7 +94,7 @@ ggplot(data = virion_data, aes(x=log_genome_length_kb, y=log_virion_volume)) +
   theme(panel.border = element_rect(color = "black", fill = NA, size = 1))
 ```
 
-#### Figure 2: The code and the ouput (which matches the figure in question)
+#### Figure 3: The code and the ouput (which matches the figure in question)
 
 ![](images/clipboard-4106196674.png)
 
