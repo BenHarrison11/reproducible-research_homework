@@ -4,8 +4,6 @@
 library(ggplot2)
 library(gridExtra)
 
-###seed <- set.seed(sample(1:100, 1))  this is my edits to the code, include it in the random walk funciton? 
-######seed
 random_walk  <- function (n_steps) {
   
   df <- data.frame(x = rep(NA, n_steps), y = rep(NA, n_steps), time = 1:n_steps)
