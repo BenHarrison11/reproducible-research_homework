@@ -18,7 +18,7 @@ b)  Put simply, a random seed is the initial value that is given to initialise a
 
 c)  In order to make a reproducible simulation of Brownian motion, I adjusted the code to include a random seed.
 
-    **###seed \<- set.seed(sample(1:100, 1)) this is my edits to the code, include it in the random walk funciton? ######seed###seed \<- set.seed(sample(1:100, 1)) this is my edits to the code, include it in the random walk funciton? ######seed**
+    **###seed \<- set.seed(sample(1:100, 1)) this is my edits to the code, include it in the random walk funciton? ######seed###seed \<- set.seed(sample(1:100, 1)) this is my edits to the code, include it in the random walk funciton? ######seed###seed \<- set.seed(sample(1:100, 1)) this is my edits to the code, include it in the random walk funciton? ######seed**
 
 d)  **INCLUDE HERE A PHOTO OF THE SIDE BY SIDE COMPARISON OF THE COMMITS IN THE CODE**
 
@@ -34,7 +34,7 @@ b)  We have been told that the relationship can be modelled using an allometric 
 
     Applying the transformation:
 
-    log(V) = ln(α(L\^β))
+    ln(V) = ln(α(L\^β))
 
     ln(V) = ln(α) + βln(L)
 
