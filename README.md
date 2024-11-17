@@ -185,9 +185,3 @@ Questions 1, 2 and 3 should be answered in the **README.md** file of the `logist
 </p>
 
 e)  What is the estimated volume of a 300 kb dsDNA virus? (4 points)
-
-```{r}
-sink(file = "package-versions.txt")
-sessionInfo()
-sink()
-```
