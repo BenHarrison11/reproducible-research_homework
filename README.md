@@ -76,7 +76,7 @@ summary(linear_model)
 
 ![](images/clipboard-1008844200.png)
 
-c\. Recall: ln(V) = ln(α) + βln(L)
+c) Recall: ln(V) = ln(α) + βln(L)
 
 The estimate for the intercept of our graph (ln(α)) is given as 7.0748. Therefore the scale factor α is equal to e\^7.0748 = 1181.807116.
 
@@ -112,7 +112,7 @@ ggplot(data = virion_data, aes(x=log_genome_length_kb, y=log_virion_volume)) +
 
 ![](images/clipboard-4106196674.png)
 
-e\. What is the estimated volume of a 300 kb dsDNA virus?
+e) What is the estimated volume of a 300 kb dsDNA virus?
 
 I have used my exact estimates, rather than the rounded figures, as I will ultimately be rounding the final answer to 2 significant figures.
 
