@@ -20,9 +20,9 @@ b)  Put simply, a random seed is the initial value that is given to initialise a
 
 c)  In order to make a reproducible simulation of Brownian motion, I adjusted the code to include a random seed that could easily be adjusted. What allowed me to verify that the simulation was now repeatable was the fact that plot1 and plot2 were now identical, when running the same function over the same number of steps (data1 and data2 were now equivalent, and therefore when plotted, the plots are also equivalent).
 
-    #### Figure 2: The output of executing my updated random_walk code
+    #### Figure 2: The ouput from running the updated random_walk code
 
-    ![](images/clipboard-262710380.png)
+    ![](images/clipboard-3846896482.png)
 
     Figure 2 was produced by choosing a seed value of 123. You could change this seed value to any number and still observe that plot1 and plot2 will have the same path generated from that specific seed value.
 
