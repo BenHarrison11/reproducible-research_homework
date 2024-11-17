@@ -4,7 +4,15 @@
 library(ggplot2)
 library(gridExtra)
 
-random_walk  <- function (n_steps) {
+random_walk  <- function (n_steps, seed = 123) {
+#The addition of this seed inside of the function clearly makes the simulation 
+#reproducible This is evidenced by the fact that plot1 and plot2 now generate 
+#the same output, when they didn't before. This is because the same seed is 
+#being used when running the function random_walk over the same number of steps 
+#in data1 and data2. The seed can be adjusted to any number, and in each case
+#plot1 and plot2 remain identical as the seed is the same every time the function
+#is run.
+  set.seed(seed)
   
   df <- data.frame(x = rep(NA, n_steps), y = rep(NA, n_steps), time = 1:n_steps)
   
