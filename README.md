@@ -34,7 +34,7 @@ d)  Figure 3 shows the edit that I made to the random_walk.R script, to make a r
 
 ![](images/clipboard-2360912122.png)
 
-All that it took to make the reproducible simulation was therefore including within the function a chosen seed value, and then 'setting' this seed inside the function, to ensure that all of the following elements within the function generate the same results each time the function is used for a given seed value.
+All that it took to make the reproducible simulation was therefore including within the function a chosen seed value, and then 'setting' this seed inside the function. This ensured that all of the following elements within the function generated the same results each time the function used a given seed value.
 
 ## Question 5
 
@@ -88,7 +88,7 @@ The code in the R chunk above takes you through how I have fitted a linear model
 
 ![](images/clipboard-1008844200.png)
 
-c) Recall: ln(V) = ln(α) + βln(L)
+c)  Recall: ln(V) = ln(α) + βln(L)
 
 The estimate for the intercept of our graph (ln(α)) is given as 7.0748. Therefore the scale factor α is equal to e\^7.0748 = 1181.807116.
 
@@ -98,7 +98,7 @@ The estimate for the gradient of our graph (β) is given as 1.5152. Therefore th
 
 The associated p value for the gradient is 6.44e-10, which is highly statistically significant (far below the typical significance level threshold of 0.05, as well as more stringent thresholds such as 0.01).
 
-(The above values were found when running the code in question b).
+(The above values were found when running the code in answer b).
 
 The paper gives the following highlighted values for dsDNA viruses:
 
@@ -124,9 +124,9 @@ ggplot(data = virion_data, aes(x=log_genome_length_kb, y=log_virion_volume)) +
 
 ![](images/clipboard-4106196674.png)
 
-e) What is the estimated volume of a 300 kb dsDNA virus?
+e)  What is the estimated volume of a 300 kb dsDNA virus?
 
-I have used my exact estimates, rather than the rounded figures, as I will ultimately be rounding my final answer to 2 significant figures.
+I have used my exact parameter estimates, rather than the rounded figures, as I will ultimately be rounding my final answer to 2 significant figures.
 
 V = α(L\^β)
 
@@ -146,7 +146,7 @@ sessionInfo()
 sink()
 ```
 
-This code allowed me to make a list of all the packages used in answering these questions, so that someone else would be able to reproduce my work.
+This code allowed me to make a list of all the packages used in answering these questions, so that someone else would be able to reproduce my work easily.
 
 ## Instructions
 
