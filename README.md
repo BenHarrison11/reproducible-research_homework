@@ -58,7 +58,7 @@ b)  We have been told that the relationship can be modelled using an allometric 
 
     Applying the transformation:
 
-    ln(V) = ln(α(L\^β))
+    ln(V) = ln(α(L^β))
 
     ln(V) = ln(α) + βln(L)
 
