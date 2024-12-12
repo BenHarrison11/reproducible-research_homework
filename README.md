@@ -8,6 +8,8 @@ I have answered questions 1, 2 and 3 in the README.md file of the logistic_growt
 
 <https://github.com/anonymousbuffalo/logistic_growth>
 
+(If for whatever reason the link does not work, you are able to navigate to my profile and enter the logistic_growth repo from there)
+
 ## Question 4
 
 #### Figure 1: Outcome of executing the random_walk code
