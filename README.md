@@ -36,7 +36,7 @@ d)  Figure 3 shows the edit that I made to the random_walk.R script, to make a r
 
 ![](images/clipboard-2360912122.png)
 
-All that it took to make the reproducible simulation was therefore including within the function a chosen seed value, and then 'setting' this seed inside the function. This ensured that all of the following elements within the function generated the same results each time the function used a given seed value.
+All that it took to make the simulation reproducible was therefore including within the function a chosen seed value, and then 'setting' this seed value inside the function. Doing this meant that every time the function was run for a given seed value, the resulting random walk was the same.
 
 ## Question 5
 
